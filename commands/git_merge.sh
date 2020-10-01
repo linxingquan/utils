@@ -1,6 +1,9 @@
 from_branch=$1
 to_branch=$2
-cd $3
+if [[ $3 != "" ]]; then
+  cd $3
+fi
+echo "Working directory: $(pwd)"
 
 git checkout $from_branch
 git pull
