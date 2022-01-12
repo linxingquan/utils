@@ -8,4 +8,4 @@ echo "git branch: "
 echo "$(git branch)"
 additional_options=$3
 
-git commit -a -m "$message" $additional_options
+git commit -m "$message" $additional_options

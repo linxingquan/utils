@@ -10,5 +10,5 @@ git pull
 
 git checkout -b $to_branch $from_branch
 echo "pushing $to_branch"
-git push --set-upstream origin $to_branch
+git push origin $to_branch
 
